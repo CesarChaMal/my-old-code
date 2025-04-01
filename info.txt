@@ -1,0 +1,10 @@
+$ mvn archetype:generate -DgroupId=com.example.code \
+  -DartifactId=my-old-code \
+  -DarchetypeArtifactId=maven-archetype-quickstart \
+  -DinteractiveMode=false
+
+mvn clean compile
+
+mvn test
+
+mvn exec:java -Dexec.mainClass="com.example.mention.App"
