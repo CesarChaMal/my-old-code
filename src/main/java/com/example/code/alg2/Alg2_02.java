@@ -1,4 +1,4 @@
-package com.example.code.alg6;
+package com.example.code.alg2;
 
 import java.util.function.Function;
 

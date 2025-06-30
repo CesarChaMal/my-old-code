@@ -1,4 +1,4 @@
-package com.example.code.alg6;
+package com.example.code.alg1;
 
 import java.util.Scanner;
 import java.util.function.DoubleBinaryOperator;
